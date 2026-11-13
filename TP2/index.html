@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="inicio">
+        <nav>
+            <ul id="flexNav">
+                <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
+                <li><a href="index.html" class="link sel">Inicio</a></li>
+                <li><a href="sobrenos.html" class="link">Sobre nosotros</a></li>
+                <li><a href="proyectos.html" class="link">Proyectos</a></li>
+                <li><a href="forms.html" class="link">Contacto</a></li>
+                <li><a href="#" class="link" onclick="abrirModal(); return false;">DONAR</a></li>
+                <button onclick="flexToggle()">Ξ</button>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="img/portada.jpg" alt="ONG Huellitas">
+                    <div class="text">
+                        <h2>Bienvenidos a Huellitas</h2>
+                        <p>Rescatamos, cuidamos y damos amor a cada perrito.</p>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="img/adopcion.jpg" alt="Perro esperando ser adoptado">
+                    <div class="text">
+                        <h2>Adoptá, no compres!</h2>
+                        <p>Cada perro merece un hogar lleno de cariño.</p>
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="img/adopcion-1024x682.jpg" alt="Voluntarios con perros">
+                    <div class="text">
+                        <h2>Sumate a Huellitas</h2>
+                        <p>Con tu ayuda podemos llegar a más huellitas felices.</p>
+                    </div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <a href="#conocenos" class="btn-conoce">Conocé más</a>
+            </div>
+            <br>
+        </section>
+
+        <section id="conocenos">
+            <div id="texto-conocenos">
+                <h2>Quiénes somos</h2>
+                <p>Huellitas es una ONG de que nació en el año 2021 para rescatar perror en situación de calle y
+                    acompañarlos en el proceso de encontrar una familia.</p>
+                <p>Trabajamos con voluntarios, veterinarios y vecinos que creen que cada perro merece un hogar lleno
+                    decariño.</p>
+
+                <h3>Nuestra misión</h3>
+                <p>Rescatar perros en situación de calle, brindarles atención veterinaria y acompañarlos hasta que
+                    encuentren un hogar definitivo y lleno de cariño.</p>
+
+                <h3>¿Cómo ayudar?</h3>
+                <p>Podés adoptar, donar, ser voluntario o ser hogar de tránsito. Cada gesto, por chico que parezca,
+                    cambia la vida de un perro.</p>
+            </div>
+
+            <div id="datos-conocenos">
+                <img src="img/voluntariado.webp" alt="voluntariado">
+                <ul>
+                    <li><strong>+120</strong> perros adoptados</li>
+                    <li><strong>+60</strong> voluntarios</li>
+                    <li><strong>+1500</strong> atenciones gratuitas</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div>
+            <p>© 2026 Huellitas. Todos los derechos reservados | Voluntariados, rescates y adopciones.</p>
+            <p>Desarrollado por Lucía Cantero.</p>
+        </div>
+        <a href="#inicio">↑ Volver arriba</a>
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
